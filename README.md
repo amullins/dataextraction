@@ -19,7 +19,7 @@ Comments: {{customercomments}}
 ## Example Usage
 ```scala
 // for the extraction to be considered a success, these keys must be extracted
-val optionalRequiredKeys = Seq('fullname', 'emailaddress')
+val optionalRequiredKeys = Seq("fullname", "emailaddress")
 
 val template =
   new ExtractionTemplate("a sample email body with keys - see above") {
