@@ -1,0 +1,43 @@
+# use glob syntax.
+syntax: glob
+*.ser
+*.class
+*~
+*.bak
+*.off
+*.old
+.DS_Store
+Thumbs.db
+
+**/target/
+project/project
+
+# logs
+derby.log
+/logs
+
+# building
+#target
+#build
+null
+tmp*
+dist
+test-output
+
+# sbt
+#target
+lib_managed
+src_managed
+project/boot
+
+# other scm
+.svn
+.CVS
+.hg*
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+/.idea_modules
