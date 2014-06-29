@@ -1,5 +1,4 @@
 # Data Extraction
-------------------
 This library aims to be a general information extraction library using a variety of methods.
 
 ## Firstly, support for extracting via template:
